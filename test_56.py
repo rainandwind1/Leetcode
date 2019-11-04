@@ -40,13 +40,17 @@ import numpy as np
 
 
 # print(countSegments(target_str))
-nums = [56,12,14,23,12,14,45,79]
-def fastsort(nums):
-    if len(nums) <= 1:
-        return nums
-    index = nums[0]
-    left = [i for i in nums if i < index]
-    right = [i for i in nums if i > index]
-    middle = [i for i in nums if i  == index]
-    return fastsort(left) + middle + fastsort(right)
-print(fastsort(nums))
+# nums = [56,12,14,23,12,14,45,79]
+# def fastsort(nums):
+#     if len(nums) <= 1:
+#         return nums
+#     index = nums[0]
+#     left = [i for i in nums if i < index]
+#     right = [i for i in nums if i > index]
+#     middle = [i for i in nums if i  == index]
+#     return fastsort(left) + middle + fastsort(right)
+# print(fastsort(nums))
+
+a = np.mat([[0.8,-0.6],[0.6,0.8]])
+b =np.mat([[20,14],[-15,2]])
+print(a*b)
