@@ -51,6 +51,6 @@ import numpy as np
 #     return fastsort(left) + middle + fastsort(right)
 # print(fastsort(nums))
 
-a = np.mat([[0.8,-0.6],[0.6,0.8]])
-b =np.mat([[20,14],[-15,2]])
-print(a*b)
+a = np.mat([[3,15,0],[0,33*(5**0.5)/5,-48*(5**0.5)/5],[0,-6*(5**0.5)/5,111*(5**0.5)/5]])
+b =np.mat([[1,0,0],[0,11*(5**0.5)/25,-2*(5**0.5)/25],[0,2*(5**0.5)/25,11*(5**0.5)/25]])
+print(b*a)
